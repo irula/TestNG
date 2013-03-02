@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.weibo</groupId>
+  <artifactId>test</artifactId>
+  <version>0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>test</name>
+  <description>
+  	测试最佳实践，包括单元测试、集成测试。
+  	2013-03-02开始全面学习并实践。
+  	
+  	开源框架包括JUnit、TestNG、JMock、Mockito。
+  </description>
+
+  <dependencies>
+  </dependencies>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <inceptionYear>2013</inceptionYear>
+  <contributors>
+  	<contributor>
+      <name>Edward Lee</name>
+      <email>huagang1@staff.sina.com.cn</email>
+      <organization>weibo.com</organization>
+      <organizationUrl>http://t.cn</organizationUrl>
+      <roles>
+      	<role>developer</role>
+      </roles>
+  	</contributor>
+  </contributors>
+</project>
