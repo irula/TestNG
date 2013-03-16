@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+<suite name="tutorial" verbose="1">
+	<test name="testng">
+		<classes>
+			<class name="testng.TestNGTutorial" />
+		</classes>
+	</test>
+	
+	<test name="mockito">
+		<classes>
+			<class name="mockito.MockitoTutorial" />
+		</classes>
+	</test>
+	
+	<test name="jmock">
+		<classes>
+			<class name="jmock.JMockTutorial" />
+		</classes>
+	</test>
+	
+	<test name="tier">
+		<groups>
+			<run>
+				<include name="jdbc" />
+				<include name="dao" />
+				<include name="cache" />
+				<include name="service" />
+			</run>
+		</groups>
+	</test>
+</suite>
