@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd ">
+
+	<bean id="userControllerTest" class="com.weibo.web.UserController" />
+	<!-- 被依赖的服务 -->
+    <bean id="userQueryService" class="org.mockito.Mockito" factory-method="mock">
+      <constructor-arg value="com.weibo.service.UserQueryService" />
+    </bean>
+	
+	<bean id="userQueryServiceTest" class="com.weibo.service.impl.UserQueryServiceImpl" />
+	<!-- 被依赖的服务 -->
+    <bean id="userService" class="org.mockito.Mockito" factory-method="mock">
+      <constructor-arg value="com.weibo.service.UserService" />
+    </bean>
+	
+</beans>
