@@ -85,7 +85,7 @@ public class TestNGTutorial {
 	 */
 	// This function will provide the parameter data
 	@DataProvider(name= "Data-Provider-Function")
-	public Object[][] dataProvider() {
+	protected static final Object[][] dataProvider() {
 		return new Object[][] {
 				{ List.class, new String[] { "java.util.AbstractList", "java.util.ArrayList"} }, 
 				{ String.class, new String[] { "2", "3" } }

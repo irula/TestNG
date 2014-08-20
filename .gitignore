@@ -1,0 +1,13 @@
+# TestNG
+/test-output
+
+# Maven
+/target
+
+# Eclipse
+/.settings
+.classpath
+.project
+
+# PMD
+/.pmd
