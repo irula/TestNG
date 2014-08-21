@@ -15,7 +15,7 @@ public class UserIDRequest extends BaseRequest {
 
 	@JsonProperty("id")
 	@NotNull(message = "id param is null")
-	@Min(value = 1, message = "id param must be great or equal than 1")
+	@Min(value = 1, message = "id param must be great or equal than \\{{value}\\}") // 4.3. Message interpolation -《JSR 303: Bean Validation》
 	protected long id;
 
 	public long getId() {

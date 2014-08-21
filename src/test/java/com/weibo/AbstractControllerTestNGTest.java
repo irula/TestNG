@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeClass;
  * @version 2014-8-19
  */
 @WebAppConfiguration("src/test/java") // 集成Web应用上下文
-public abstract class AbstractTestNGControllerTest extends AbstractTestNGTest {
+public abstract class AbstractControllerTestNGTest extends AbstractTestNGTest {
 
 	/**
 	 * MVC mock

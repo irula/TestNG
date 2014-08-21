@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import com.weibo.AbstractTestNGControllerTest;
+import com.weibo.AbstractControllerTestNGTest;
 import com.weibo.service.UserQueryService;
 
 /**
@@ -16,7 +16,7 @@ import com.weibo.service.UserQueryService;
  * @author	Bert Lee
  * @version 2014-8-19
  */
-public class UserControllerTest extends AbstractTestNGControllerTest {
+public class UserControllerTest extends AbstractControllerTestNGTest {
 
 	// tested controller
 	@Autowired
